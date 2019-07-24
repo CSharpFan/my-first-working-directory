@@ -13,8 +13,10 @@
 
             string currentDirectory = $"{Directory.GetCurrentDirectory()}\\";
 
-            Console.WriteLine($"Current AppContext.BaseDirectory is {baseDirectory}");
-            Console.WriteLine($"Current working directory is {currentDirectory}");
+            Console.WriteLine($"Current AppContext.BaseDirectory is {Environment.NewLine}{baseDirectory}");
+            Console.WriteLine();
+            Console.WriteLine($"Current working directory is {Environment.NewLine}{currentDirectory}");
+            Console.WriteLine();
             Console.WriteLine($"Both are {(baseDirectory == currentDirectory ? "" : "not ")}the same");
 
             Console.ReadLine();

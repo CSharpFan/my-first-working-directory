@@ -5,7 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>MyFirstWorkingDirectory</RootNamespace>
     <AssemblyName>MyFirstWorkingDirectory</AssemblyName>
-    <Platforms>AnyCPU;x64</Platforms>
+    <Platforms>x64</Platforms>
+    <StartupObject>MyFirstWorkingDirectory.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
